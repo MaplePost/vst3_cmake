@@ -5,15 +5,15 @@ include(SetupVST3LibraryDefaultPath)
 option(SMTG_RENAME_ASSERT "Rename ASSERT to SMTG_ASSERT" ON)
 
 # Add VSTGUI
-option(SMTG_ADD_VSTGUI "Add VSTGUI Support" ON)
+option(SMTG_ADD_VSTGUI "Add VSTGUI Support" OFF)
 
 # Add VST3 Plug-ins Samples
-option(SMTG_ADD_VST3_PLUGINS_SAMPLES "Add VST3 Plug-ins Samples to the solution" ON)
+option(SMTG_ADD_VST3_PLUGINS_SAMPLES "Add VST3 Plug-ins Samples to the solution" OFF)
 # do not build AGain VST 2 by default
 option(SMTG_CREATE_VST2_AGAIN_SAMPLE_VERSION "Legacy: Create the VST2 version of the Sample Plug-in AGain, be sure that you have copied the VST2 interfaces into the folder VST_SDK/VST3_SDK/pluginterfaces/vst2.x" OFF)
 
 # Add VST3 Hosting Samples
-option(SMTG_ADD_VST3_HOSTING_SAMPLES "Add VST3 Hosting Samples to the solution" ON)
+option(SMTG_ADD_VST3_HOSTING_SAMPLES "Add VST3 Hosting Samples to the solution" OFF)
 
 # Create Symbolic Link for the VST3 Plug-ins
 if(SMTG_WIN)
